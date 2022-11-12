@@ -1,4 +1,12 @@
 #dictionary
+info = {
+    "Full Name: ":"Ivonne Glynn P. Lasco",
+    "Age: ":"20",
+    "Address: ":"Luzon Avenue",
+    "Contact Number: ":"09123456789",
+    "Hobby: ":"Programming",
+    "Course: ":"BS Comp. Eng.",
+}
 #MENU
 #input
 #1. Add an info
@@ -8,3 +16,4 @@
 #2. Search an item
     #display the record
 #3. Exit
+print(info)
