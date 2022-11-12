@@ -1,11 +1,11 @@
 #dictionary
 info = {
-    "Full Name: ":"Ivonne Glynn P. Lasco",
-    "Age: ":"20",
-    "Address: ":"Luzon Avenue",
-    "Contact Number: ":"09123456789",
-    "Hobby: ":"Programming",
-    "Course: ":"BS Comp. Eng.",
+    "Full Name":"Ivonne Glynn P. Lasco",
+    "Age":"20",
+    "Address":"Luzon Avenue",
+    "Contact Number":"09123456789",
+    "Hobby":"Programming",
+    "Course":"BS Comp. Eng.",
 }
 #MENU
 print("=========MENU=========")
@@ -20,10 +20,11 @@ if select == "1":
     #display dictionary
     print()
     for key, value in info.items():
-        print(key, value)
+        print(key, ":",value)
     print()
     #What do you want to add?
     add = input("What do you want to add? ")
+    input_add = input("Fill up your info: " +add+ ">> ")
     #add to dictionary
 #2. Search an item
     #display the record
