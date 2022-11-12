@@ -45,5 +45,7 @@ while True:
         print()
         menu()
 #3. Search an item
+    if select == "3":
+        search = input("What do you want to search? ")
     #display the record
 #4. Exit
