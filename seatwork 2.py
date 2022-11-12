@@ -8,6 +8,11 @@ info = {
     "Course: ":"BS Comp. Eng.",
 }
 #MENU
+print("=========MENU=========")
+print("1. Add an info")
+print("2. Search an item")
+print("3. Exit")
+print("======================")
 #input
 #1. Add an info
     #display dictionary
@@ -16,4 +21,3 @@ info = {
 #2. Search an item
     #display the record
 #3. Exit
-print(info)
