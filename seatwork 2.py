@@ -8,24 +8,29 @@ info = {
     "Course":"BS Comp. Eng.",
 }
 #MENU
-print("=========MENU=========")
+print("======== MENU ========")
 print("1. Add an info")
 print("2. Search an item")
 print("3. Exit")
 print("======================")
 #input
 select = input("What do you want to do? >> ")
+while True:
 #1. Add an info
-if select == "1":
-    #display dictionary
-    print()
-    for key, value in info.items():
-        print(key, ":",value)
-    print()
-    #What do you want to add?
-    add = input("What do you want to add? ")
-    input_add = input("Fill up your info: " +add+ ">> ")
-    #add to dictionary
+    if select == "1":
+        #display dictionary
+        print()
+        print("== Here is the info ==")
+        for key, value in info.items():
+            print(key, ":",value)
+        print()
+        #What do you want to add?
+        add = input("What do you want to add? ")
+        input_add = input("Fill up your info: " +add+ " >> ")
+        #add to dictionary
+        info[add] = input_add
+        print("Your info has been added.")
+        break
 #2. Search an item
     #display the record
 #3. Exit
