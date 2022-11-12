@@ -14,6 +14,7 @@ print("2. Search an item")
 print("3. Exit")
 print("======================")
 #input
+input = input("What do you want to do? >> ")
 #1. Add an info
     #display dictionary
     #What do you want to add?
