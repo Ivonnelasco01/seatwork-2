@@ -50,6 +50,12 @@ while True:
     #display the record
         if search in info:
             print()
-            print("There is existing one")
+            print("== There is existing one ==")
             print(search,": ",info.get(search))
+    #not exist
+        if search not in info:
+            print()
+            print("There is not existing one, search another!")
+            print()
+            menu()
 #4. Exit
