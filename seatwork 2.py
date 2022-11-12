@@ -52,6 +52,7 @@ while True:
             print()
             print("== There is existing one ==")
             print(search,": ",info.get(search))
+            menu()
     #not exist
         if search not in info:
             print()
