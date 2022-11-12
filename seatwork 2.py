@@ -14,13 +14,16 @@ print("2. Search an item")
 print("3. Exit")
 print("======================")
 #input
-input = input("What do you want to do? >> ")
+select = input("What do you want to do? >> ")
 #1. Add an info
-if input == "1":
+if select == "1":
     #display dictionary
+    print()
     for key, value in info.items():
         print(key, value)
+    print()
     #What do you want to add?
+    add = input("What do you want to add? ")
     #add to dictionary
 #2. Search an item
     #display the record
