@@ -16,7 +16,10 @@ print("======================")
 #input
 input = input("What do you want to do? >> ")
 #1. Add an info
+if input == "1":
     #display dictionary
+    for key, value in info.items():
+        print(key, value)
     #What do you want to add?
     #add to dictionary
 #2. Search an item
