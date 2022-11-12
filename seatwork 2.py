@@ -48,4 +48,8 @@ while True:
     if select == "3":
         search = input("What do you want to search? ")
     #display the record
+        if search in info:
+            print()
+            print("There is existing one")
+            print(search,": ",info.get(search))
 #4. Exit
