@@ -59,3 +59,10 @@ while True:
             print()
             menu()
 #4. Exit
+    if select == "4":
+        exit = input("Are you sure you want to exit? y/n ")
+        if exit == "y":
+            break
+        if exit == "n":
+            print()
+            menu()
