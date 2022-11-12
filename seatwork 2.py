@@ -11,8 +11,8 @@ info = {
 def menu():
     print("======== MENU ========")
     print("1. Add an info")
-    print("2. Search an item")
-    print("3. Display my info")
+    print("2. Display the info")
+    print("3. Search an item")
     print("4. Exit")
     print("======================")
 menu()
